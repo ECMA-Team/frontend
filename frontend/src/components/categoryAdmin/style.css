@@ -1,0 +1,22 @@
+#categryT {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #categryT td, #categryT th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #categryT tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #categryT tr:hover {background-color: #ddd;}
+  
+  #categryT th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #54d8a8;
+    color: white;
+  }

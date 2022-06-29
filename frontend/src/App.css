@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.navv {
+  grid-area: hedaer;
+}
+
+.filter_item {
+  grid-area: sidebar;
+}
+
+.foter {
+  grid-area: foter;
+}
+.all_brand,
+.cart_container,
+.all_category,
+.categoryContenar,
+.loginDiv,
+.main,
+.products,
+.register,
+.AddProductAdmin,
+.cart_containerr {
+  grid-area: main;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f5f5f5;
+    color: #222;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+    color: #fff;
+  }
+}
+
+input::placeholder,textarea::placeholder {
+color: rgb(104, 104, 104);
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(104, 104, 104);
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(104, 104, 104);
+}

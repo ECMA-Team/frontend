@@ -1,0 +1,83 @@
+.sidebar_admin {
+  position: absolute;
+  z-index: 102;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 50vh;
+  width: 14%;
+  overflow: hidden;
+
+  top: 40px;
+}
+.sidebar_admin a {
+  text-decoration: none;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  margin :5px;
+  font-size: 120%;
+  font-weight: 900;
+
+
+}
+
+.sidebar_admin .menu {
+  width: 18vw;
+  height: auto;
+  background: #2e424de0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.sidebar_admin .menu .btn {
+    height: 0px;
+    display: flex;
+    border-bottom: solid 1px #304750;
+    border-top: solid 1px #5B8291;
+    position: relative;
+    margin: 5px;
+    background-color: #dae2e6bd;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sidebar_admin .menu .submenu {
+  background: #EAEBED;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.8s ease-out;
+}
+
+.sidebar_admin .menu .submenu a {
+  display: block;
+  padding: 5PX;
+  position: relative;
+}
+
+.sidebar_admin .menu .submenu a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background: #e43f5a;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.sidebar_admin .menu .submenu a:hover {
+  padding-left: calc(1rem + 5px);
+}
+
+.sidebar_admin .menu .submenu a:hover::before {
+  opacity: 1;
+}
+
+.sidebar_admin .item:target .submenu {
+  max-height: 20rem;
+}
+

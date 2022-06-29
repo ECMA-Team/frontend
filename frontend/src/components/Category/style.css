@@ -1,0 +1,28 @@
+.categoryContenar {
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: stretch;
+ 
+}
+
+.categoryCont{
+    background-color: rgb(125, 74, 192);
+
+    display: grid;
+    grid-template-columns: 80%;
+  
+    justify-content: center;
+}
+
+@media (max-width: 500px){
+
+
+
+
+  
+}

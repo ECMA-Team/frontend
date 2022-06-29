@@ -1,0 +1,70 @@
+#usersT {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+  margin: 0px 20px 10px ;
+  
+}
+
+#usersT td,
+#usersT th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#usersT tr:nth-child(odd) {
+  background-color: #93e5ee86;
+}
+
+/* #usersT tr:hover {
+  background-color: rgba(93, 133, 81);
+} */
+
+#usersT th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #025E73;
+  color: white;
+  align-items: center;
+}
+
+.UsersComponent , .order_admin {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+.ActionsCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  row-gap: 5px;
+}
+
+
+
+.Delete {
+  cursor: pointer;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: #b90000;
+  font-weight: 900;
+}
+
+.Update {
+  cursor: pointer;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: #b90000;
+  font-weight: 900;
+}
+.Update svg {
+  color: blue;
+}

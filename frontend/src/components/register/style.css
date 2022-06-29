@@ -1,0 +1,135 @@
+
+.registerCont{
+  display: flex;
+  justify-content: center;
+  margin: 5% 0%;
+  flex-direction: column;
+  align-items: center;
+}
+.register input {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+
+  padding: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.8);
+  color: rgb(25, 107, 173);
+  width: 60%;
+  margin: 1%;
+  margin-left: 20%;
+  border-radius: 7px,;
+  border-color: rgb(25, 107, 173);
+ 
+
+}
+.register button {
+  background: rgb(25, 107, 173);
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.register button:hover {
+  transform: scale(110%);
+}
+
+.register {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  width: 100%;
+  max-width: 450px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+
+  border-radius: 5%;
+ border-style: solid;
+ border-color: rgb(25, 107, 173);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+
+}
+
+
+.titleR{
+  color: #ffffff;
+}
+
+.mss {
+  margin: 0 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid rgb(25, 107, 173);
+  padding: 10px;
+  color:rgb(25, 107, 173);
+  width: 100%;
+}
+
+.mss:-webkit-any(h1) {
+  /* IE 10+ */
+  color: rgb(25, 107, 173);
+}
+
+::-webkit-input-placeholder .input {
+
+  color: rgb(25, 107, 173);
+}
+
+@media (max-width: 500px) {
+
+
+
+  .register {
+    max-width: 210px;
+    max-height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+  }
+  
+
+
+  .register input {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+
+    padding: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(25, 107, 173);
+    width: 80%;
+    margin: 1%;
+    /* margin-left: 20%; */
+    border-radius: 7px;
+    border-color: rgb(25, 107, 173);
+  
+  }
+
+  .register button {
+    background: rgb(25, 107, 173);
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+   height: 40px;
+   padding-bottom: 10px;
+  }
+
+
+
+
+}
